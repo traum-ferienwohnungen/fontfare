@@ -1,0 +1,33 @@
+{
+  "name": "@traum-ferienwohnungen/fontfare",
+  "version": "1.3.5",
+  "description": "A universal iconfont for TFW",
+  "scripts": {
+    "build": "node fonts.js",
+    "prepublishOnly": "npm run build",
+    "postpublish": "rm -rf dist",
+    "preversion": "npm run build",
+    "version": "git add -f -A dist",
+    "postversion": "git push && git push --tags && rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "fontfare",
+    "Iconfont",
+    "svg",
+    "tfw",
+    "icon",
+    "font",
+    "generator"
+  ],
+  "author": "Johannes Konze <konze@traum-ferienwohnungen.de>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "bluebird": "^3.5.3",
+    "node-sass": "^4.11.0",
+    "webfonts-generator": "^0.4.0"
+  }
+}

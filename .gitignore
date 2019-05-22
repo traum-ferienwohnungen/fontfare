@@ -1,0 +1,5 @@
+.idea
+*.yml
+dist/
+node_modules/
+.DS_store
