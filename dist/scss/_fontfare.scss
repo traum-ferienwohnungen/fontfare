@@ -1,0 +1,883 @@
+$font-path: "../fonts/" !default;
+$font-fare-prefix: "ff" !default;
+
+@font-face {
+    font-family: "FontFare";
+    src: url('#{$font-path}FontFare.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-path}FontFare.woff2?t=1558515204534') format('woff2'),
+        url('#{$font-path}FontFare.woff?t=1558515204534') format('woff'),
+        url('#{$font-path}FontFare.ttf?t=1558515204534') format('truetype'),
+        url('#{$font-path}FontFare.svg?t=1558515204534') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@function ff-char($filename) {
+    $char: "";
+        @if $filename ==  accessible-prohibited {
+            $char: "\e000",
+        }
+        @if $filename ==  accessible-unspecified {
+            $char: "\e001",
+        }
+        @if $filename ==  accessible {
+            $char: "\e002",
+        }
+        @if $filename ==  airport {
+            $char: "\e003",
+        }
+        @if $filename ==  anreise-icon {
+            $char: "\e004",
+        }
+        @if $filename ==  apartment-size {
+            $char: "\e005",
+        }
+        @if $filename ==  arrival {
+            $char: "\e006",
+        }
+        @if $filename ==  arrow-down {
+            $char: "\e007",
+        }
+        @if $filename ==  arrow-down2 {
+            $char: "\e008",
+        }
+        @if $filename ==  bar {
+            $char: "\e009",
+        }
+        @if $filename ==  bathroom {
+            $char: "\e00a",
+        }
+        @if $filename ==  bed {
+            $char: "\e00b",
+        }
+        @if $filename ==  binding-inquiry {
+            $char: "\e00c",
+        }
+        @if $filename ==  booking {
+            $char: "\e00d",
+        }
+        @if $filename ==  calculator {
+            $char: "\e00e",
+        }
+        @if $filename ==  calendar {
+            $char: "\e00f",
+        }
+        @if $filename ==  caret-down {
+            $char: "\e010",
+        }
+        @if $filename ==  caret-left {
+            $char: "\e011",
+        }
+        @if $filename ==  caret-right {
+            $char: "\e012",
+        }
+        @if $filename ==  caret-up {
+            $char: "\e013",
+        }
+        @if $filename ==  check-square {
+            $char: "\e014",
+        }
+        @if $filename ==  check {
+            $char: "\e015",
+        }
+        @if $filename ==  checkbox {
+            $char: "\e016",
+        }
+        @if $filename ==  chevron-down {
+            $char: "\e017",
+        }
+        @if $filename ==  chevron-left {
+            $char: "\e018",
+        }
+        @if $filename ==  chevron-right {
+            $char: "\e019",
+        }
+        @if $filename ==  chevron-up {
+            $char: "\e01a",
+        }
+        @if $filename ==  circle-o {
+            $char: "\e01b",
+        }
+        @if $filename ==  city {
+            $char: "\e01c",
+        }
+        @if $filename ==  clock-o {
+            $char: "\e01d",
+        }
+        @if $filename ==  clock {
+            $char: "\e01e",
+        }
+        @if $filename ==  close {
+            $char: "\e01f",
+        }
+        @if $filename ==  code-fork {
+            $char: "\e020",
+        }
+        @if $filename ==  compress {
+            $char: "\e021",
+        }
+        @if $filename ==  cuttlery {
+            $char: "\e022",
+        }
+        @if $filename ==  departure {
+            $char: "\e023",
+        }
+        @if $filename ==  direction {
+            $char: "\e024",
+        }
+        @if $filename ==  dishwasher {
+            $char: "\e025",
+        }
+        @if $filename ==  doctor {
+            $char: "\e026",
+        }
+        @if $filename ==  dot-circle-o {
+            $char: "\e027",
+        }
+        @if $filename ==  elevator {
+            $char: "\e028",
+        }
+        @if $filename ==  ellipsis-h {
+            $char: "\e029",
+        }
+        @if $filename ==  envelope-o {
+            $char: "\e02a",
+        }
+        @if $filename ==  envelope {
+            $char: "\e02b",
+        }
+        @if $filename ==  eur {
+            $char: "\e02c",
+        }
+        @if $filename ==  exchange {
+            $char: "\e02d",
+        }
+        @if $filename ==  expand {
+            $char: "\e02e",
+        }
+        @if $filename ==  eye {
+            $char: "\e02f",
+        }
+        @if $filename ==  facebook-square {
+            $char: "\e030",
+        }
+        @if $filename ==  facebook {
+            $char: "\e031",
+        }
+        @if $filename ==  family {
+            $char: "\e032",
+        }
+        @if $filename ==  fax {
+            $char: "\e033",
+        }
+        @if $filename ==  fb-messenger {
+            $char: "\e034",
+        }
+        @if $filename ==  ferry {
+            $char: "\e035",
+        }
+        @if $filename ==  filter {
+            $char: "\e036",
+        }
+        @if $filename ==  futbol-o {
+            $char: "\e037",
+        }
+        @if $filename ==  garden {
+            $char: "\e038",
+        }
+        @if $filename ==  google-plus-square {
+            $char: "\e039",
+        }
+        @if $filename ==  google {
+            $char: "\e03a",
+        }
+        @if $filename ==  groundlevel {
+            $char: "\e03b",
+        }
+        @if $filename ==  group {
+            $char: "\e03c",
+        }
+        @if $filename ==  guest {
+            $char: "\e03d",
+        }
+        @if $filename ==  heart-broken {
+            $char: "\e03e",
+        }
+        @if $filename ==  heart-o {
+            $char: "\e03f",
+        }
+        @if $filename ==  heart {
+            $char: "\e040",
+        }
+        @if $filename ==  home-market {
+            $char: "\e041",
+        }
+        @if $filename ==  home {
+            $char: "\e042",
+        }
+        @if $filename ==  host {
+            $char: "\e043",
+        }
+        @if $filename ==  information {
+            $char: "\e044",
+        }
+        @if $filename ==  instagram {
+            $char: "\e045",
+        }
+        @if $filename ==  link {
+            $char: "\e046",
+        }
+        @if $filename ==  list-icon {
+            $char: "\e047",
+        }
+        @if $filename ==  local_cafe {
+            $char: "\e048",
+        }
+        @if $filename ==  lock {
+            $char: "\e049",
+        }
+        @if $filename ==  mail-reply {
+            $char: "\e04a",
+        }
+        @if $filename ==  map {
+            $char: "\e04b",
+        }
+        @if $filename ==  mobile {
+            $char: "\e04c",
+        }
+        @if $filename ==  navigation {
+            $char: "\e04d",
+        }
+        @if $filename ==  offer {
+            $char: "\e04e",
+        }
+        @if $filename ==  pencil {
+            $char: "\e04f",
+        }
+        @if $filename ==  pets-prohibited {
+            $char: "\e050",
+        }
+        @if $filename ==  pets-unspecified {
+            $char: "\e051",
+        }
+        @if $filename ==  pets {
+            $char: "\e052",
+        }
+        @if $filename ==  phone-square {
+            $char: "\e053",
+        }
+        @if $filename ==  phone {
+            $char: "\e054",
+        }
+        @if $filename ==  photopoint {
+            $char: "\e055",
+        }
+        @if $filename ==  pin-filled {
+            $char: "\e056",
+        }
+        @if $filename ==  pin-round {
+            $char: "\e057",
+        }
+        @if $filename ==  pin-square {
+            $char: "\e058",
+        }
+        @if $filename ==  pin {
+            $char: "\e059",
+        }
+        @if $filename ==  pinterest {
+            $char: "\e05a",
+        }
+        @if $filename ==  pool {
+            $char: "\e05b",
+        }
+        @if $filename ==  price-performance {
+            $char: "\e05c",
+        }
+        @if $filename ==  print {
+            $char: "\e05d",
+        }
+        @if $filename ==  prohibited {
+            $char: "\e05e",
+        }
+        @if $filename ==  question-circle {
+            $char: "\e05f",
+        }
+        @if $filename ==  rating-star {
+            $char: "\e060",
+        }
+        @if $filename ==  rental-income {
+            $char: "\e061",
+        }
+        @if $filename ==  rocket {
+            $char: "\e062",
+        }
+        @if $filename ==  sauna {
+            $char: "\e063",
+        }
+        @if $filename ==  search {
+            $char: "\e064",
+        }
+        @if $filename ==  service {
+            $char: "\e065",
+        }
+        @if $filename ==  share-alt {
+            $char: "\e066",
+        }
+        @if $filename ==  share {
+            $char: "\e067",
+        }
+        @if $filename ==  shop {
+            $char: "\e068",
+        }
+        @if $filename ==  skiing-lift {
+            $char: "\e069",
+        }
+        @if $filename ==  sliders {
+            $char: "\e06a",
+        }
+        @if $filename ==  smoking-prohibited {
+            $char: "\e06b",
+        }
+        @if $filename ==  smoking-unspecified {
+            $char: "\e06c",
+        }
+        @if $filename ==  smoking {
+            $char: "\e06d",
+        }
+        @if $filename ==  sort-o {
+            $char: "\e06e",
+        }
+        @if $filename ==  sort {
+            $char: "\e06f",
+        }
+        @if $filename ==  stairs {
+            $char: "\e070",
+        }
+        @if $filename ==  star-dtv {
+            $char: "\e071",
+        }
+        @if $filename ==  star {
+            $char: "\e072",
+        }
+        @if $filename ==  streetview {
+            $char: "\e073",
+        }
+        @if $filename ==  suitcase {
+            $char: "\e074",
+        }
+        @if $filename ==  suitcase_paw {
+            $char: "\e075",
+        }
+        @if $filename ==  sun-o {
+            $char: "\e076",
+        }
+        @if $filename ==  tag {
+            $char: "\e077",
+        }
+        @if $filename ==  tags {
+            $char: "\e078",
+        }
+        @if $filename ==  television {
+            $char: "\e079",
+        }
+        @if $filename ==  theater {
+            $char: "\e07a",
+        }
+        @if $filename ==  times-circle {
+            $char: "\e07b",
+        }
+        @if $filename ==  trainstation {
+            $char: "\e07c",
+        }
+        @if $filename ==  trust-accommodation {
+            $char: "\e07d",
+        }
+        @if $filename ==  trust-rating {
+            $char: "\e07e",
+        }
+        @if $filename ==  trust-recommendation {
+            $char: "\e07f",
+        }
+        @if $filename ==  trust-trust {
+            $char: "\e080",
+        }
+        @if $filename ==  twitter-square {
+            $char: "\e081",
+        }
+        @if $filename ==  user-check {
+            $char: "\e082",
+        }
+        @if $filename ==  user {
+            $char: "\e083",
+        }
+        @if $filename ==  washing-machine {
+            $char: "\e084",
+        }
+        @if $filename ==  whatsapp {
+            $char: "\e085",
+        }
+        @if $filename ==  wifi {
+            $char: "\e086",
+        }
+    @return $char;
+}
+
+@mixin ff-mixin($filename, $insert: before) {
+    &:#{$insert} {
+        content: ff-char($filename);
+    }
+}
+
+.ff-accessible-prohibited {
+    @include ff-mixin(accessible-prohibited);
+}
+.ff-accessible-unspecified {
+    @include ff-mixin(accessible-unspecified);
+}
+.ff-accessible {
+    @include ff-mixin(accessible);
+}
+.ff-airport {
+    @include ff-mixin(airport);
+}
+.ff-anreise-icon {
+    @include ff-mixin(anreise-icon);
+}
+.ff-apartment-size {
+    @include ff-mixin(apartment-size);
+}
+.ff-arrival {
+    @include ff-mixin(arrival);
+}
+.ff-arrow-down {
+    @include ff-mixin(arrow-down);
+}
+.ff-arrow-down2 {
+    @include ff-mixin(arrow-down2);
+}
+.ff-bar {
+    @include ff-mixin(bar);
+}
+.ff-bathroom {
+    @include ff-mixin(bathroom);
+}
+.ff-bed {
+    @include ff-mixin(bed);
+}
+.ff-binding-inquiry {
+    @include ff-mixin(binding-inquiry);
+}
+.ff-booking {
+    @include ff-mixin(booking);
+}
+.ff-calculator {
+    @include ff-mixin(calculator);
+}
+.ff-calendar {
+    @include ff-mixin(calendar);
+}
+.ff-caret-down {
+    @include ff-mixin(caret-down);
+}
+.ff-caret-left {
+    @include ff-mixin(caret-left);
+}
+.ff-caret-right {
+    @include ff-mixin(caret-right);
+}
+.ff-caret-up {
+    @include ff-mixin(caret-up);
+}
+.ff-check-square {
+    @include ff-mixin(check-square);
+}
+.ff-check {
+    @include ff-mixin(check);
+}
+.ff-checkbox {
+    @include ff-mixin(checkbox);
+}
+.ff-chevron-down {
+    @include ff-mixin(chevron-down);
+}
+.ff-chevron-left {
+    @include ff-mixin(chevron-left);
+}
+.ff-chevron-right {
+    @include ff-mixin(chevron-right);
+}
+.ff-chevron-up {
+    @include ff-mixin(chevron-up);
+}
+.ff-circle-o {
+    @include ff-mixin(circle-o);
+}
+.ff-city {
+    @include ff-mixin(city);
+}
+.ff-clock-o {
+    @include ff-mixin(clock-o);
+}
+.ff-clock {
+    @include ff-mixin(clock);
+}
+.ff-close {
+    @include ff-mixin(close);
+}
+.ff-code-fork {
+    @include ff-mixin(code-fork);
+}
+.ff-compress {
+    @include ff-mixin(compress);
+}
+.ff-cuttlery {
+    @include ff-mixin(cuttlery);
+}
+.ff-departure {
+    @include ff-mixin(departure);
+}
+.ff-direction {
+    @include ff-mixin(direction);
+}
+.ff-dishwasher {
+    @include ff-mixin(dishwasher);
+}
+.ff-doctor {
+    @include ff-mixin(doctor);
+}
+.ff-dot-circle-o {
+    @include ff-mixin(dot-circle-o);
+}
+.ff-elevator {
+    @include ff-mixin(elevator);
+}
+.ff-ellipsis-h {
+    @include ff-mixin(ellipsis-h);
+}
+.ff-envelope-o {
+    @include ff-mixin(envelope-o);
+}
+.ff-envelope {
+    @include ff-mixin(envelope);
+}
+.ff-eur {
+    @include ff-mixin(eur);
+}
+.ff-exchange {
+    @include ff-mixin(exchange);
+}
+.ff-expand {
+    @include ff-mixin(expand);
+}
+.ff-eye {
+    @include ff-mixin(eye);
+}
+.ff-facebook-square {
+    @include ff-mixin(facebook-square);
+}
+.ff-facebook {
+    @include ff-mixin(facebook);
+}
+.ff-family {
+    @include ff-mixin(family);
+}
+.ff-fax {
+    @include ff-mixin(fax);
+}
+.ff-fb-messenger {
+    @include ff-mixin(fb-messenger);
+}
+.ff-ferry {
+    @include ff-mixin(ferry);
+}
+.ff-filter {
+    @include ff-mixin(filter);
+}
+.ff-futbol-o {
+    @include ff-mixin(futbol-o);
+}
+.ff-garden {
+    @include ff-mixin(garden);
+}
+.ff-google-plus-square {
+    @include ff-mixin(google-plus-square);
+}
+.ff-google {
+    @include ff-mixin(google);
+}
+.ff-groundlevel {
+    @include ff-mixin(groundlevel);
+}
+.ff-group {
+    @include ff-mixin(group);
+}
+.ff-guest {
+    @include ff-mixin(guest);
+}
+.ff-heart-broken {
+    @include ff-mixin(heart-broken);
+}
+.ff-heart-o {
+    @include ff-mixin(heart-o);
+}
+.ff-heart {
+    @include ff-mixin(heart);
+}
+.ff-home-market {
+    @include ff-mixin(home-market);
+}
+.ff-home {
+    @include ff-mixin(home);
+}
+.ff-host {
+    @include ff-mixin(host);
+}
+.ff-information {
+    @include ff-mixin(information);
+}
+.ff-instagram {
+    @include ff-mixin(instagram);
+}
+.ff-link {
+    @include ff-mixin(link);
+}
+.ff-list-icon {
+    @include ff-mixin(list-icon);
+}
+.ff-local_cafe {
+    @include ff-mixin(local_cafe);
+}
+.ff-lock {
+    @include ff-mixin(lock);
+}
+.ff-mail-reply {
+    @include ff-mixin(mail-reply);
+}
+.ff-map {
+    @include ff-mixin(map);
+}
+.ff-mobile {
+    @include ff-mixin(mobile);
+}
+.ff-navigation {
+    @include ff-mixin(navigation);
+}
+.ff-offer {
+    @include ff-mixin(offer);
+}
+.ff-pencil {
+    @include ff-mixin(pencil);
+}
+.ff-pets-prohibited {
+    @include ff-mixin(pets-prohibited);
+}
+.ff-pets-unspecified {
+    @include ff-mixin(pets-unspecified);
+}
+.ff-pets {
+    @include ff-mixin(pets);
+}
+.ff-phone-square {
+    @include ff-mixin(phone-square);
+}
+.ff-phone {
+    @include ff-mixin(phone);
+}
+.ff-photopoint {
+    @include ff-mixin(photopoint);
+}
+.ff-pin-filled {
+    @include ff-mixin(pin-filled);
+}
+.ff-pin-round {
+    @include ff-mixin(pin-round);
+}
+.ff-pin-square {
+    @include ff-mixin(pin-square);
+}
+.ff-pin {
+    @include ff-mixin(pin);
+}
+.ff-pinterest {
+    @include ff-mixin(pinterest);
+}
+.ff-pool {
+    @include ff-mixin(pool);
+}
+.ff-price-performance {
+    @include ff-mixin(price-performance);
+}
+.ff-print {
+    @include ff-mixin(print);
+}
+.ff-prohibited {
+    @include ff-mixin(prohibited);
+}
+.ff-question-circle {
+    @include ff-mixin(question-circle);
+}
+.ff-rating-star {
+    @include ff-mixin(rating-star);
+}
+.ff-rental-income {
+    @include ff-mixin(rental-income);
+}
+.ff-rocket {
+    @include ff-mixin(rocket);
+}
+.ff-sauna {
+    @include ff-mixin(sauna);
+}
+.ff-search {
+    @include ff-mixin(search);
+}
+.ff-service {
+    @include ff-mixin(service);
+}
+.ff-share-alt {
+    @include ff-mixin(share-alt);
+}
+.ff-share {
+    @include ff-mixin(share);
+}
+.ff-shop {
+    @include ff-mixin(shop);
+}
+.ff-skiing-lift {
+    @include ff-mixin(skiing-lift);
+}
+.ff-sliders {
+    @include ff-mixin(sliders);
+}
+.ff-smoking-prohibited {
+    @include ff-mixin(smoking-prohibited);
+}
+.ff-smoking-unspecified {
+    @include ff-mixin(smoking-unspecified);
+}
+.ff-smoking {
+    @include ff-mixin(smoking);
+}
+.ff-sort-o {
+    @include ff-mixin(sort-o);
+}
+.ff-sort {
+    @include ff-mixin(sort);
+}
+.ff-stairs {
+    @include ff-mixin(stairs);
+}
+.ff-star-dtv {
+    @include ff-mixin(star-dtv);
+}
+.ff-star {
+    @include ff-mixin(star);
+}
+.ff-streetview {
+    @include ff-mixin(streetview);
+}
+.ff-suitcase {
+    @include ff-mixin(suitcase);
+}
+.ff-suitcase_paw {
+    @include ff-mixin(suitcase_paw);
+}
+.ff-sun-o {
+    @include ff-mixin(sun-o);
+}
+.ff-tag {
+    @include ff-mixin(tag);
+}
+.ff-tags {
+    @include ff-mixin(tags);
+}
+.ff-television {
+    @include ff-mixin(television);
+}
+.ff-theater {
+    @include ff-mixin(theater);
+}
+.ff-times-circle {
+    @include ff-mixin(times-circle);
+}
+.ff-trainstation {
+    @include ff-mixin(trainstation);
+}
+.ff-trust-accommodation {
+    @include ff-mixin(trust-accommodation);
+}
+.ff-trust-rating {
+    @include ff-mixin(trust-rating);
+}
+.ff-trust-recommendation {
+    @include ff-mixin(trust-recommendation);
+}
+.ff-trust-trust {
+    @include ff-mixin(trust-trust);
+}
+.ff-twitter-square {
+    @include ff-mixin(twitter-square);
+}
+.ff-user-check {
+    @include ff-mixin(user-check);
+}
+.ff-user {
+    @include ff-mixin(user);
+}
+.ff-washing-machine {
+    @include ff-mixin(washing-machine);
+}
+.ff-whatsapp {
+    @include ff-mixin(whatsapp);
+}
+.ff-wifi {
+    @include ff-mixin(wifi);
+}
+
+/** Misc **/
+.ff {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+    font-family: "FontFare";
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1
+}
+.#{$font-fare-prefix}-fw {
+    width: 1.1em;
+    text-align: center;
+}
+
+/** Animations **/
+.#{$font-fare-prefix}-spin {
+    animation: ff-spin 1s infinite linear;
+}
+
+.#{$font-fare-prefix}-pulse {
+    animation: ff-pulse 1s infinite steps(8);
+}
+
+@keyframes ff-pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes ff-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(359deg);
+    }
+}
