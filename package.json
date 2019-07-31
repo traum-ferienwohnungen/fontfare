@@ -1,6 +1,6 @@
 {
   "name": "@traum-ferienwohnungen/fontfare",
-  "version": "1.3.6",
+  "version": "1.3.7",
   "description": "A universal iconfont for TFW",
   "scripts": {
     "build": "node fonts.js",
