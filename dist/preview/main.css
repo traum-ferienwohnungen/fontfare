@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: "FontFare";
-  src: url("../fonts/FontFare.eot?#iefix") format("embedded-opentype"), url("../fonts/FontFare.woff2?t=1579515205378") format("woff2"), url("../fonts/FontFare.woff?t=1579515205378") format("woff"), url("../fonts/FontFare.ttf?t=1579515205378") format("truetype"), url("../fonts/FontFare.svg?t=1579515205378") format("svg");
+  src: url("../fonts/FontFare.eot?#iefix") format("embedded-opentype"), url("../fonts/FontFare.woff2?t=1599063860152") format("woff2"), url("../fonts/FontFare.woff?t=1599063860152") format("woff"), url("../fonts/FontFare.ttf?t=1599063860152") format("truetype"), url("../fonts/FontFare.svg?t=1599063860152") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -32,413 +32,464 @@
 .ff-arrow-down2:before {
   content: ""; }
 
-.ff-arrow-travel:before {
+.ff-arrow-right:before {
   content: ""; }
 
-.ff-bar:before {
+.ff-arrow-travel:before {
   content: ""; }
 
-.ff-bathroom:before {
+.ff-bar:before {
   content: ""; }
 
-.ff-beach:before {
+.ff-bathroom:before {
   content: ""; }
 
-.ff-bed:before {
+.ff-beach:before {
   content: ""; }
 
-.ff-bell:before {
+.ff-bed:before {
   content: ""; }
 
-.ff-binding-inquiry:before {
+.ff-bell:before {
   content: ""; }
 
-.ff-booking:before {
+.ff-binding-inquiry:before {
   content: ""; }
 
-.ff-calculator:before {
+.ff-booking:before {
   content: ""; }
 
-.ff-calendar:before {
+.ff-briefcase:before {
   content: ""; }
 
-.ff-caret-down:before {
+.ff-building:before {
   content: ""; }
 
-.ff-caret-left:before {
+.ff-bulb:before {
   content: ""; }
 
-.ff-caret-right:before {
+.ff-calculator:before {
   content: ""; }
 
-.ff-caret-up:before {
+.ff-calendar:before {
   content: ""; }
 
-.ff-check-square:before {
+.ff-caret-down:before {
   content: ""; }
 
-.ff-check:before {
+.ff-caret-left:before {
   content: ""; }
 
-.ff-checkbox:before {
+.ff-caret-right:before {
   content: ""; }
 
-.ff-chevron-down:before {
+.ff-caret-up:before {
   content: ""; }
 
-.ff-chevron-left:before {
+.ff-check-square:before {
   content: ""; }
 
-.ff-chevron-right:before {
+.ff-check:before {
   content: ""; }
 
-.ff-chevron-up:before {
+.ff-checkbox:before {
   content: ""; }
 
-.ff-circle-o:before {
+.ff-chevron-down:before {
   content: ""; }
 
-.ff-city:before {
+.ff-chevron-left:before {
   content: ""; }
 
-.ff-clock-o:before {
+.ff-chevron-right:before {
   content: ""; }
 
-.ff-clock:before {
+.ff-chevron-up:before {
   content: ""; }
 
-.ff-close-bold:before {
+.ff-circle-o:before {
   content: ""; }
 
-.ff-close-regular:before {
+.ff-city:before {
   content: ""; }
 
-.ff-close-x:before {
+.ff-clock-o:before {
   content: ""; }
 
-.ff-close:before {
+.ff-clock:before {
   content: ""; }
 
-.ff-code-fork:before {
+.ff-close-bold:before {
   content: ""; }
 
-.ff-compress:before {
+.ff-close-regular:before {
   content: ""; }
 
-.ff-cuttlery:before {
+.ff-close-x:before {
   content: ""; }
 
-.ff-departure:before {
+.ff-close:before {
   content: ""; }
 
-.ff-direction:before {
+.ff-code-fork:before {
   content: ""; }
 
-.ff-dishwasher:before {
+.ff-compress:before {
   content: ""; }
 
-.ff-doctor:before {
+.ff-cuttlery:before {
   content: ""; }
 
-.ff-dot-circle-o:before {
+.ff-datepicker:before {
   content: ""; }
 
-.ff-elevator:before {
+.ff-deal:before {
   content: ""; }
 
-.ff-ellipsis-h:before {
+.ff-departure:before {
   content: ""; }
 
-.ff-envelope-o:before {
+.ff-direction:before {
   content: ""; }
 
-.ff-envelope:before {
+.ff-dishwasher:before {
   content: ""; }
 
-.ff-eur:before {
+.ff-doctor:before {
   content: ""; }
 
-.ff-exchange:before {
+.ff-dot-circle-o:before {
   content: ""; }
 
-.ff-excursion:before {
+.ff-elevator:before {
   content: ""; }
 
-.ff-expand:before {
+.ff-ellipsis-h:before {
   content: ""; }
 
-.ff-eye:before {
+.ff-envelope-o:before {
   content: ""; }
 
-.ff-facebook-square:before {
+.ff-envelope:before {
   content: ""; }
 
-.ff-facebook:before {
+.ff-eur:before {
   content: ""; }
 
-.ff-family:before {
+.ff-exchange:before {
   content: ""; }
 
-.ff-faq:before {
+.ff-excursion:before {
   content: ""; }
 
-.ff-fax:before {
+.ff-expand:before {
   content: ""; }
 
-.ff-fb-messenger:before {
+.ff-eye:before {
   content: ""; }
 
-.ff-ferry:before {
+.ff-facebook-square:before {
   content: ""; }
 
-.ff-filter:before {
+.ff-facebook:before {
   content: ""; }
 
-.ff-futbol-o:before {
+.ff-family:before {
   content: ""; }
 
-.ff-garden:before {
+.ff-faq:before {
   content: ""; }
 
-.ff-google-plus-square:before {
+.ff-fax:before {
   content: ""; }
 
-.ff-google:before {
+.ff-fb-messenger:before {
   content: ""; }
 
-.ff-groundlevel:before {
+.ff-ferry:before {
   content: ""; }
 
-.ff-group:before {
+.ff-file-text:before {
   content: ""; }
 
-.ff-guest:before {
+.ff-filter:before {
   content: ""; }
 
-.ff-heart-broken:before {
+.ff-futbol-o:before {
   content: ""; }
 
-.ff-heart-o:before {
+.ff-garden:before {
   content: ""; }
 
-.ff-heart:before {
+.ff-google-plus-square:before {
   content: ""; }
 
-.ff-home-market:before {
+.ff-google:before {
   content: ""; }
 
-.ff-home:before {
+.ff-groundlevel:before {
   content: ""; }
 
-.ff-host:before {
+.ff-group:before {
   content: ""; }
 
-.ff-information:before {
+.ff-guest:before {
   content: ""; }
 
-.ff-instagram:before {
+.ff-heart-broken:before {
   content: ""; }
 
-.ff-link-copy:before {
+.ff-heart-o:before {
   content: ""; }
 
-.ff-link:before {
+.ff-heart:before {
   content: ""; }
 
-.ff-list-icon:before {
+.ff-home-market:before {
   content: ""; }
 
-.ff-local_cafe:before {
+.ff-home:before {
   content: ""; }
 
-.ff-lock:before {
+.ff-host:before {
   content: ""; }
 
-.ff-mail-reply:before {
+.ff-id:before {
   content: ""; }
 
-.ff-map:before {
+.ff-information:before {
   content: ""; }
 
-.ff-mobile:before {
+.ff-instagram:before {
   content: ""; }
 
-.ff-most-popular-travel-time:before {
+.ff-layout:before {
   content: ""; }
 
-.ff-navigation:before {
+.ff-life-buoy:before {
   content: ""; }
 
-.ff-offer:before {
+.ff-link-copy:before {
   content: ""; }
 
-.ff-pencil:before {
+.ff-link:before {
   content: ""; }
 
-.ff-pets-prohibited:before {
+.ff-list-icon:before {
   content: ""; }
 
-.ff-pets-unspecified:before {
+.ff-local_cafe:before {
   content: ""; }
 
-.ff-pets:before {
+.ff-lock:before {
   content: ""; }
 
-.ff-phone-square:before {
+.ff-logout:before {
   content: ""; }
 
-.ff-phone:before {
+.ff-mail-reply:before {
   content: ""; }
 
-.ff-photopoint:before {
+.ff-map:before {
   content: ""; }
 
-.ff-pin-filled:before {
+.ff-megaphone:before {
   content: ""; }
 
-.ff-pin-round:before {
+.ff-mobile:before {
   content: ""; }
 
-.ff-pin-square:before {
+.ff-most-popular-travel-time:before {
   content: ""; }
 
-.ff-pin:before {
+.ff-navigation:before {
   content: ""; }
 
-.ff-pinterest:before {
+.ff-offer:before {
   content: ""; }
 
-.ff-pool:before {
+.ff-pencil:before {
   content: ""; }
 
-.ff-price-performance:before {
+.ff-pets-prohibited:before {
   content: ""; }
 
-.ff-print:before {
+.ff-pets-unspecified:before {
   content: ""; }
 
-.ff-prohibited:before {
+.ff-pets:before {
   content: ""; }
 
-.ff-question-circle:before {
+.ff-phone-square:before {
   content: ""; }
 
-.ff-rating-star:before {
+.ff-phone:before {
   content: ""; }
 
-.ff-rental-income:before {
+.ff-photopoint:before {
   content: ""; }
 
-.ff-rocket:before {
+.ff-pin-filled:before {
   content: ""; }
 
-.ff-sauna:before {
+.ff-pin-round:before {
   content: ""; }
 
-.ff-search:before {
+.ff-pin-square:before {
   content: ""; }
 
-.ff-service:before {
+.ff-pin:before {
   content: ""; }
 
-.ff-share-alt:before {
+.ff-pinterest:before {
   content: ""; }
 
-.ff-share:before {
+.ff-pool:before {
   content: ""; }
 
-.ff-shop:before {
+.ff-price-performance:before {
   content: ""; }
 
-.ff-skiing-lift:before {
+.ff-print:before {
   content: ""; }
 
-.ff-sliders:before {
+.ff-prohibited:before {
   content: ""; }
 
-.ff-smoking-prohibited:before {
+.ff-question-circle:before {
   content: ""; }
 
-.ff-smoking-unspecified:before {
+.ff-rating-star:before {
   content: ""; }
 
-.ff-smoking:before {
+.ff-rental-income:before {
   content: ""; }
 
-.ff-sort-o:before {
+.ff-rocket:before {
   content: ""; }
 
-.ff-sort:before {
+.ff-sauna:before {
   content: ""; }
 
-.ff-stairs:before {
+.ff-search:before {
   content: ""; }
 
-.ff-star-dtv:before {
+.ff-service:before {
   content: ""; }
 
-.ff-star:before {
+.ff-share-alt:before {
   content: ""; }
 
-.ff-streetview:before {
+.ff-share:before {
   content: ""; }
 
-.ff-suitcase:before {
+.ff-shop:before {
   content: ""; }
 
-.ff-suitcase_paw:before {
+.ff-skiing-lift:before {
   content: ""; }
 
-.ff-sun-o:before {
+.ff-sliders:before {
   content: ""; }
 
-.ff-tag:before {
+.ff-smoking-prohibited:before {
   content: ""; }
 
-.ff-tags:before {
+.ff-smoking-unspecified:before {
   content: ""; }
 
-.ff-television:before {
+.ff-smoking:before {
   content: ""; }
 
-.ff-theater:before {
+.ff-sort-o:before {
   content: ""; }
 
-.ff-times-circle:before {
+.ff-sort:before {
   content: ""; }
 
-.ff-trainstation:before {
+.ff-stairs:before {
   content: ""; }
 
-.ff-trust-accommodation:before {
+.ff-star-dtv:before {
   content: ""; }
 
-.ff-trust-rating:before {
+.ff-star:before {
   content: ""; }
 
-.ff-trust-recommendation:before {
+.ff-streetview:before {
   content: ""; }
 
-.ff-trust-trust:before {
+.ff-suitcase:before {
   content: ""; }
 
-.ff-twitter-square:before {
+.ff-suitcase_paw:before {
   content: ""; }
 
-.ff-user-check:before {
+.ff-sun-o:before {
   content: ""; }
 
-.ff-user:before {
+.ff-tag:before {
   content: ""; }
 
-.ff-washing-machine:before {
+.ff-tags:before {
   content: ""; }
 
-.ff-whatsapp:before {
+.ff-television:before {
   content: ""; }
 
-.ff-wifi:before {
+.ff-theater:before {
   content: ""; }
+
+.ff-times-circle:before {
+  content: ""; }
+
+.ff-trainstation:before {
+  content: ""; }
+
+.ff-trust-accommodation:before {
+  content: ""; }
+
+.ff-trust-rating:before {
+  content: ""; }
+
+.ff-trust-recommendation:before {
+  content: ""; }
+
+.ff-trust-trust:before {
+  content: ""; }
+
+.ff-twitter-square:before {
+  content: ""; }
+
+.ff-user-check-o:before {
+  content: ""; }
+
+.ff-user-check:before {
+  content: ""; }
+
+.ff-user-image:before {
+  content: ""; }
+
+.ff-user-o:before {
+  content: ""; }
+
+.ff-user:before {
+  content: ""; }
+
+.ff-users:before {
+  content: ""; }
+
+.ff-washing-machine:before {
+  content: ""; }
+
+.ff-whatsapp:before {
+  content: ""; }
+
+.ff-wifi:before {
+  content: ""; }
+
+.ff-wishlist:before {
+  content: ""; }
 
 /** Misc **/
 .ff {
