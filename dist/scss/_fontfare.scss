@@ -4,10 +4,10 @@ $font-fare-prefix: "ff" !default;
 @font-face {
     font-family: "FontFare";
     src: url('#{$font-path}FontFare.eot?#iefix') format('embedded-opentype'),
-        url('#{$font-path}FontFare.woff2?t=1605616017037') format('woff2'),
-        url('#{$font-path}FontFare.woff?t=1605616017037') format('woff'),
-        url('#{$font-path}FontFare.ttf?t=1605616017037') format('truetype'),
-        url('#{$font-path}FontFare.svg?t=1605616017037') format('svg');
+        url('#{$font-path}FontFare.woff2?t=1606121627595') format('woff2'),
+        url('#{$font-path}FontFare.woff?t=1606121627595') format('woff'),
+        url('#{$font-path}FontFare.ttf?t=1606121627595') format('truetype'),
+        url('#{$font-path}FontFare.svg?t=1606121627595') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -110,428 +110,452 @@ $font-fare-prefix: "ff" !default;
         @if $filename ==  chevron-down {
             $char: "\e01f",
         }
-        @if $filename ==  chevron-left {
+        @if $filename ==  chevron-left-bold {
             $char: "\e020",
         }
-        @if $filename ==  chevron-right {
+        @if $filename ==  chevron-left {
             $char: "\e021",
         }
-        @if $filename ==  chevron-up {
+        @if $filename ==  chevron-right-bold {
             $char: "\e022",
         }
-        @if $filename ==  circle-o {
+        @if $filename ==  chevron-right {
             $char: "\e023",
         }
-        @if $filename ==  city {
+        @if $filename ==  chevron-up {
             $char: "\e024",
         }
-        @if $filename ==  clock-o {
+        @if $filename ==  circle-o {
             $char: "\e025",
         }
-        @if $filename ==  clock {
+        @if $filename ==  city {
             $char: "\e026",
         }
-        @if $filename ==  close-bold {
+        @if $filename ==  clock-o {
             $char: "\e027",
         }
-        @if $filename ==  close-regular {
+        @if $filename ==  clock {
             $char: "\e028",
         }
-        @if $filename ==  close-x {
+        @if $filename ==  close-bold {
             $char: "\e029",
         }
-        @if $filename ==  close {
+        @if $filename ==  close-regular {
             $char: "\e02a",
         }
-        @if $filename ==  code-fork {
+        @if $filename ==  close-x {
             $char: "\e02b",
         }
-        @if $filename ==  compress {
+        @if $filename ==  close {
             $char: "\e02c",
         }
-        @if $filename ==  cross-o {
+        @if $filename ==  code-fork {
             $char: "\e02d",
         }
-        @if $filename ==  cross {
+        @if $filename ==  compress {
             $char: "\e02e",
         }
-        @if $filename ==  cuttlery {
+        @if $filename ==  cross-o {
             $char: "\e02f",
         }
-        @if $filename ==  datepicker {
+        @if $filename ==  cross {
             $char: "\e030",
         }
-        @if $filename ==  deal {
+        @if $filename ==  cuttlery {
             $char: "\e031",
         }
-        @if $filename ==  departure {
+        @if $filename ==  datepicker {
             $char: "\e032",
         }
-        @if $filename ==  direction {
+        @if $filename ==  deal {
             $char: "\e033",
         }
-        @if $filename ==  dishwasher {
+        @if $filename ==  departure {
             $char: "\e034",
         }
-        @if $filename ==  doctor {
+        @if $filename ==  direction {
             $char: "\e035",
         }
-        @if $filename ==  dot-circle-o {
+        @if $filename ==  dishwasher {
             $char: "\e036",
         }
-        @if $filename ==  elevator {
+        @if $filename ==  doctor {
             $char: "\e037",
         }
-        @if $filename ==  ellipsis-h {
+        @if $filename ==  dot-circle-o {
             $char: "\e038",
         }
-        @if $filename ==  envelope-o {
+        @if $filename ==  elevator {
             $char: "\e039",
         }
-        @if $filename ==  envelope {
+        @if $filename ==  ellipsis-h {
             $char: "\e03a",
         }
-        @if $filename ==  eur {
+        @if $filename ==  envelope-o {
             $char: "\e03b",
         }
-        @if $filename ==  exchange {
+        @if $filename ==  envelope {
             $char: "\e03c",
         }
-        @if $filename ==  excursion {
+        @if $filename ==  eur {
             $char: "\e03d",
         }
-        @if $filename ==  expand {
+        @if $filename ==  exchange {
             $char: "\e03e",
         }
-        @if $filename ==  external {
+        @if $filename ==  excursion {
             $char: "\e03f",
         }
-        @if $filename ==  eye {
+        @if $filename ==  expand {
             $char: "\e040",
         }
-        @if $filename ==  facebook-square {
+        @if $filename ==  external {
             $char: "\e041",
         }
-        @if $filename ==  facebook {
+        @if $filename ==  eye {
             $char: "\e042",
         }
-        @if $filename ==  family {
+        @if $filename ==  facebook-square {
             $char: "\e043",
         }
-        @if $filename ==  faq {
+        @if $filename ==  facebook {
             $char: "\e044",
         }
-        @if $filename ==  fax {
+        @if $filename ==  family {
             $char: "\e045",
         }
-        @if $filename ==  fb-messenger {
+        @if $filename ==  faq {
             $char: "\e046",
         }
-        @if $filename ==  ferry {
+        @if $filename ==  fax {
             $char: "\e047",
         }
-        @if $filename ==  file-text {
+        @if $filename ==  fb-messenger {
             $char: "\e048",
         }
-        @if $filename ==  filter {
+        @if $filename ==  ferry {
             $char: "\e049",
         }
-        @if $filename ==  futbol-o {
+        @if $filename ==  file-text {
             $char: "\e04a",
         }
-        @if $filename ==  garden {
+        @if $filename ==  filter {
             $char: "\e04b",
         }
-        @if $filename ==  google-plus-square {
+        @if $filename ==  futbol-o {
             $char: "\e04c",
         }
-        @if $filename ==  google {
+        @if $filename ==  garden {
             $char: "\e04d",
         }
-        @if $filename ==  groundlevel {
+        @if $filename ==  google-plus-square {
             $char: "\e04e",
         }
-        @if $filename ==  group {
+        @if $filename ==  google {
             $char: "\e04f",
         }
-        @if $filename ==  guest {
+        @if $filename ==  groundlevel {
             $char: "\e050",
         }
-        @if $filename ==  heart-broken {
+        @if $filename ==  group {
             $char: "\e051",
         }
-        @if $filename ==  heart-o {
+        @if $filename ==  guest {
             $char: "\e052",
         }
-        @if $filename ==  heart {
+        @if $filename ==  heart-broken {
             $char: "\e053",
         }
-        @if $filename ==  home-market {
+        @if $filename ==  heart-o {
             $char: "\e054",
         }
-        @if $filename ==  home {
+        @if $filename ==  heart {
             $char: "\e055",
         }
-        @if $filename ==  host {
+        @if $filename ==  home-market {
             $char: "\e056",
         }
-        @if $filename ==  id {
+        @if $filename ==  home {
             $char: "\e057",
         }
-        @if $filename ==  information {
+        @if $filename ==  host {
             $char: "\e058",
         }
-        @if $filename ==  instagram {
+        @if $filename ==  id {
             $char: "\e059",
         }
-        @if $filename ==  layout {
+        @if $filename ==  information {
             $char: "\e05a",
         }
-        @if $filename ==  life-buoy {
+        @if $filename ==  instagram {
             $char: "\e05b",
         }
-        @if $filename ==  link-copy {
+        @if $filename ==  layout {
             $char: "\e05c",
         }
-        @if $filename ==  link {
+        @if $filename ==  life-buoy {
             $char: "\e05d",
         }
-        @if $filename ==  list-icon {
+        @if $filename ==  link-copy {
             $char: "\e05e",
         }
-        @if $filename ==  local_cafe {
+        @if $filename ==  link {
             $char: "\e05f",
         }
-        @if $filename ==  lock {
+        @if $filename ==  list-icon {
             $char: "\e060",
         }
-        @if $filename ==  logout {
+        @if $filename ==  list {
             $char: "\e061",
         }
-        @if $filename ==  mail-reply {
+        @if $filename ==  local_cafe {
             $char: "\e062",
         }
-        @if $filename ==  map {
+        @if $filename ==  lock {
             $char: "\e063",
         }
-        @if $filename ==  megaphone {
+        @if $filename ==  logout {
             $char: "\e064",
         }
-        @if $filename ==  menu {
+        @if $filename ==  mail-reply {
             $char: "\e065",
         }
-        @if $filename ==  minus-disabled {
+        @if $filename ==  map-icon {
             $char: "\e066",
         }
-        @if $filename ==  minus {
+        @if $filename ==  map {
             $char: "\e067",
         }
-        @if $filename ==  mobile {
+        @if $filename ==  megaphone {
             $char: "\e068",
         }
-        @if $filename ==  most-popular-travel-time {
+        @if $filename ==  menu {
             $char: "\e069",
         }
-        @if $filename ==  navigation {
+        @if $filename ==  minus-disabled {
             $char: "\e06a",
         }
-        @if $filename ==  offer {
+        @if $filename ==  minus {
             $char: "\e06b",
         }
-        @if $filename ==  pencil {
+        @if $filename ==  mobile {
             $char: "\e06c",
         }
-        @if $filename ==  pets-prohibited {
+        @if $filename ==  most-popular-travel-time {
             $char: "\e06d",
         }
-        @if $filename ==  pets-unspecified {
+        @if $filename ==  navigation {
             $char: "\e06e",
         }
-        @if $filename ==  pets {
+        @if $filename ==  offer {
             $char: "\e06f",
         }
-        @if $filename ==  phone-square {
+        @if $filename ==  pencil {
             $char: "\e070",
         }
-        @if $filename ==  phone {
+        @if $filename ==  pets-prohibited {
             $char: "\e071",
         }
-        @if $filename ==  photopoint {
+        @if $filename ==  pets-unspecified {
             $char: "\e072",
         }
-        @if $filename ==  pin-filled {
+        @if $filename ==  pets {
             $char: "\e073",
         }
-        @if $filename ==  pin-round {
+        @if $filename ==  phone-square {
             $char: "\e074",
         }
-        @if $filename ==  pin-square {
+        @if $filename ==  phone {
             $char: "\e075",
         }
-        @if $filename ==  pin {
+        @if $filename ==  photopoint {
             $char: "\e076",
         }
-        @if $filename ==  pinterest {
+        @if $filename ==  pin-filled {
             $char: "\e077",
         }
-        @if $filename ==  plus-disabled {
+        @if $filename ==  pin-round {
             $char: "\e078",
         }
-        @if $filename ==  plus {
+        @if $filename ==  pin-square {
             $char: "\e079",
         }
-        @if $filename ==  pool {
+        @if $filename ==  pin {
             $char: "\e07a",
         }
-        @if $filename ==  price-performance {
+        @if $filename ==  pinterest {
             $char: "\e07b",
         }
-        @if $filename ==  print {
+        @if $filename ==  plus-disabled {
             $char: "\e07c",
         }
-        @if $filename ==  prohibited {
+        @if $filename ==  plus {
             $char: "\e07d",
         }
-        @if $filename ==  question-circle {
+        @if $filename ==  pool {
             $char: "\e07e",
         }
-        @if $filename ==  rating-star {
+        @if $filename ==  price-performance {
             $char: "\e07f",
         }
-        @if $filename ==  rental-income {
+        @if $filename ==  print {
             $char: "\e080",
         }
-        @if $filename ==  rocket {
+        @if $filename ==  prohibited {
             $char: "\e081",
         }
-        @if $filename ==  sauna {
+        @if $filename ==  question-circle {
             $char: "\e082",
         }
-        @if $filename ==  search {
+        @if $filename ==  rating-star {
             $char: "\e083",
         }
-        @if $filename ==  service {
+        @if $filename ==  rental-income {
             $char: "\e084",
         }
-        @if $filename ==  share-alt {
+        @if $filename ==  rocket {
             $char: "\e085",
         }
-        @if $filename ==  share {
+        @if $filename ==  sauna {
             $char: "\e086",
         }
-        @if $filename ==  shield {
+        @if $filename ==  search-o {
             $char: "\e087",
         }
-        @if $filename ==  shop {
+        @if $filename ==  search {
             $char: "\e088",
         }
-        @if $filename ==  skiing-lift {
+        @if $filename ==  service {
             $char: "\e089",
         }
-        @if $filename ==  sliders {
+        @if $filename ==  share-alt {
             $char: "\e08a",
         }
-        @if $filename ==  smile {
+        @if $filename ==  share {
             $char: "\e08b",
         }
-        @if $filename ==  smoking-prohibited {
+        @if $filename ==  shield {
             $char: "\e08c",
         }
-        @if $filename ==  smoking-unspecified {
+        @if $filename ==  shop {
             $char: "\e08d",
         }
-        @if $filename ==  smoking {
+        @if $filename ==  skiing-lift {
             $char: "\e08e",
         }
-        @if $filename ==  sort-o {
+        @if $filename ==  sliders-icon {
             $char: "\e08f",
         }
-        @if $filename ==  sort {
+        @if $filename ==  sliders {
             $char: "\e090",
         }
-        @if $filename ==  stairs {
+        @if $filename ==  smile {
             $char: "\e091",
         }
-        @if $filename ==  star-dtv {
+        @if $filename ==  smoking-prohibited {
             $char: "\e092",
         }
-        @if $filename ==  star {
+        @if $filename ==  smoking-unspecified {
             $char: "\e093",
         }
-        @if $filename ==  streetview {
+        @if $filename ==  smoking {
             $char: "\e094",
         }
-        @if $filename ==  suitcase {
+        @if $filename ==  sort-icon {
             $char: "\e095",
         }
-        @if $filename ==  suitcase_paw {
+        @if $filename ==  sort-o {
             $char: "\e096",
         }
-        @if $filename ==  sun-o {
+        @if $filename ==  sort {
             $char: "\e097",
         }
-        @if $filename ==  tag {
+        @if $filename ==  stairs {
             $char: "\e098",
         }
-        @if $filename ==  tags {
+        @if $filename ==  star-dtv {
             $char: "\e099",
         }
-        @if $filename ==  television {
+        @if $filename ==  star {
             $char: "\e09a",
         }
-        @if $filename ==  theater {
+        @if $filename ==  streetview {
             $char: "\e09b",
         }
-        @if $filename ==  times-circle {
+        @if $filename ==  suitcase {
             $char: "\e09c",
         }
-        @if $filename ==  trainstation {
+        @if $filename ==  suitcase_paw {
             $char: "\e09d",
         }
-        @if $filename ==  trust-accommodation {
+        @if $filename ==  sun-o {
             $char: "\e09e",
         }
-        @if $filename ==  trust-rating {
+        @if $filename ==  tag {
             $char: "\e09f",
         }
-        @if $filename ==  trust-recommendation {
+        @if $filename ==  tags {
             $char: "\e0a0",
         }
-        @if $filename ==  trust-trust {
+        @if $filename ==  television {
             $char: "\e0a1",
         }
-        @if $filename ==  twitter-square {
+        @if $filename ==  theater {
             $char: "\e0a2",
         }
-        @if $filename ==  user-check-o {
+        @if $filename ==  tile-icon {
             $char: "\e0a3",
         }
-        @if $filename ==  user-check {
+        @if $filename ==  times-circle {
             $char: "\e0a4",
         }
-        @if $filename ==  user-image {
+        @if $filename ==  trainstation {
             $char: "\e0a5",
         }
-        @if $filename ==  user-o {
+        @if $filename ==  trust-accommodation {
             $char: "\e0a6",
         }
-        @if $filename ==  user {
+        @if $filename ==  trust-rating {
             $char: "\e0a7",
         }
-        @if $filename ==  users {
+        @if $filename ==  trust-recommendation {
             $char: "\e0a8",
         }
-        @if $filename ==  washing-machine {
+        @if $filename ==  trust-trust {
             $char: "\e0a9",
         }
-        @if $filename ==  whatsapp {
+        @if $filename ==  twitter-square {
             $char: "\e0aa",
         }
-        @if $filename ==  wifi {
+        @if $filename ==  user-check-o {
             $char: "\e0ab",
         }
-        @if $filename ==  wishlist {
+        @if $filename ==  user-check {
             $char: "\e0ac",
+        }
+        @if $filename ==  user-image {
+            $char: "\e0ad",
+        }
+        @if $filename ==  user-o {
+            $char: "\e0ae",
+        }
+        @if $filename ==  user {
+            $char: "\e0af",
+        }
+        @if $filename ==  users {
+            $char: "\e0b0",
+        }
+        @if $filename ==  washing-machine {
+            $char: "\e0b1",
+        }
+        @if $filename ==  whatsapp {
+            $char: "\e0b2",
+        }
+        @if $filename ==  wifi {
+            $char: "\e0b3",
+        }
+        @if $filename ==  wishlist {
+            $char: "\e0b4",
         }
     @return $char;
 }
@@ -638,8 +662,14 @@ $font-fare-prefix: "ff" !default;
 .ff-chevron-down {
     @include ff-mixin(chevron-down);
 }
+.ff-chevron-left-bold {
+    @include ff-mixin(chevron-left-bold);
+}
 .ff-chevron-left {
     @include ff-mixin(chevron-left);
+}
+.ff-chevron-right-bold {
+    @include ff-mixin(chevron-right-bold);
 }
 .ff-chevron-right {
     @include ff-mixin(chevron-right);
@@ -827,6 +857,9 @@ $font-fare-prefix: "ff" !default;
 .ff-list-icon {
     @include ff-mixin(list-icon);
 }
+.ff-list {
+    @include ff-mixin(list);
+}
 .ff-local_cafe {
     @include ff-mixin(local_cafe);
 }
@@ -838,6 +871,9 @@ $font-fare-prefix: "ff" !default;
 }
 .ff-mail-reply {
     @include ff-mixin(mail-reply);
+}
+.ff-map-icon {
+    @include ff-mixin(map-icon);
 }
 .ff-map {
     @include ff-mixin(map);
@@ -935,6 +971,9 @@ $font-fare-prefix: "ff" !default;
 .ff-sauna {
     @include ff-mixin(sauna);
 }
+.ff-search-o {
+    @include ff-mixin(search-o);
+}
 .ff-search {
     @include ff-mixin(search);
 }
@@ -956,6 +995,9 @@ $font-fare-prefix: "ff" !default;
 .ff-skiing-lift {
     @include ff-mixin(skiing-lift);
 }
+.ff-sliders-icon {
+    @include ff-mixin(sliders-icon);
+}
 .ff-sliders {
     @include ff-mixin(sliders);
 }
@@ -970,6 +1012,9 @@ $font-fare-prefix: "ff" !default;
 }
 .ff-smoking {
     @include ff-mixin(smoking);
+}
+.ff-sort-icon {
+    @include ff-mixin(sort-icon);
 }
 .ff-sort-o {
     @include ff-mixin(sort-o);
@@ -1009,6 +1054,9 @@ $font-fare-prefix: "ff" !default;
 }
 .ff-theater {
     @include ff-mixin(theater);
+}
+.ff-tile-icon {
+    @include ff-mixin(tile-icon);
 }
 .ff-times-circle {
     @include ff-mixin(times-circle);
