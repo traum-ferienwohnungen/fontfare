@@ -27,7 +27,7 @@
   "license": "GPL-3.0",
   "devDependencies": {
     "bluebird": "^3.7.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^6.0.0",
     "webfonts-generator": "^0.4.0"
   }
 }
